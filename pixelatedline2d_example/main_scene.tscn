@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=3 uid="uid://dsj1cdpha6jh3"]
+
+[ext_resource type="Script" uid="uid://dn83bp4dqbvjf" path="res://addons/pixelatedline2d/pixelatedline2d.gd" id="1_0f027"]
+
+[node name="MainScene" type="Node2D"]
+
+[node name="PixelatedLine2D" type="Node2D" parent="."]
+script = ExtResource("1_0f027")
+points = PackedVector2Array(200, 411, 801, 179)
+width = 4.0
+metadata/_custom_type_script = "uid://dn83bp4dqbvjf"
+
+[node name="PixelatedLine2D2" type="Node2D" parent="."]
+script = ExtResource("1_0f027")
+points = PackedVector2Array(471, 546, 1109, 251, 1109, 546)
+color = Color(1, 1, 0, 1)
+closed = true
+width = 5.0
+selection_point_radius = 13.0
+metadata/_custom_type_script = "uid://dn83bp4dqbvjf"
